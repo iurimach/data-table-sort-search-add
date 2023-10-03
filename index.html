@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Table with Search and Sort</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <h1>Data Table with Search and Sort</h1>
+
+  <div class="inp1div"><input type="text" id="searchInput" placeholder=" global Search "></div>
+ 
+
+  <table id="dataTable">
+    
+    <thead class="header">
+      <tr>
+        <th class="sortable" data-column="0">Name <button>sort</button></th>
+        <th class="sortable" data-column="1">profession <button>sort</button></th>
+        <th class="sortable" data-column="2">place of birth<button>sort</button></th>
+        <th class="sortable" data-column="3">zip kod <button>sort</button></th>
+        <th class="sortable" data-column="4">Starting a career<button>sort</button></th>
+        <th class="sortable" data-column="4">salary<button>sort</button></th>
+      </tr>
+      <tr >
+        <th class="th01"></th>
+        <th class="th02"></th>
+        <th class="th03"></th>
+        <th class="th04"></th>
+        <th class="th05"></th>
+        <th class="th06"></th>
+        
+      </tr>
+    </thead>
+    <tbody id="dataBody" class="tbodymonacemebi">
+      <!-- Data rows will be added here using JavaScript -->
+    </tbody>
+  </table>
+<button class="acardion-header" id="toggleButton" onclick="toggleButtonText()"> Add new data</button>
+ 
+  <div class="acardion-body">
+    <input type="text" id="column1" placeholder="name">
+    <input type="text" id="column2" placeholder="profession ">
+    <input type="text" id="column3" placeholder="place of birth">
+    <input type="number" id="column4" placeholder="zip kod ">
+    <input type="date" id="column5" placeholder="Starting a career">
+    <input type="number" id="column6" placeholder="salary">
+    <button onclick="addData()">Add Data</button>
+</div>
+
+<script>
+   
+</script>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.header{
+    background-color: rgb(141, 225, 138);
+    height: 60px;
+    width: 99%;
+}
+.sortable{
+    font-size: 20px;
+    border: 2px solid black;
+}
+button{
+    margin-left:10px;
+}
+
+#searchInput{
+    margin-bottom: 10px;
+    height: 30px;
+   
+}
+input{
+  border: 2.5px solid rgb(237, 42, 16);
+}
+.inp1div{
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  
+}
+#dataTable{
+  width: 99%;
+ 
+}
+
+#table {
+    border-collapse: collapse;
+   
+    
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  th.sortable {
+    cursor: pointer;
+  }
+
+  th.sorted-asc::after {
+    content: " ↑";
+  }
+
+  th.sorted-desc::after {
+    content: " ↓";
+  }
+
+  /* აკარდეონი სტილი */
+  
+  .acardion{
+    border:1px solid red
+}
+.acardion-header{
+  margin-top: 5px;
+  display: inline-block;
+  padding: 8px 13px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
+.acardion-header:hover {background-color: #3e8e41}
+.acardion-header:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.acardion-body{
+    display: none;
+    padding: 15px;
+    border-bottom: 1px solid chartreuse;
+}
+/* defaultad damalulia js dan klikit vanicheb qvemot moyvnil klass active da mere chans */
+.acardion-body.active{
+    display: block;
+}
