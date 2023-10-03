@@ -14,10 +14,12 @@ button{
 #searchInput{
     margin-bottom: 10px;
     height: 30px;
+    width: 100px;
    
 }
 input{
   border: 2.5px solid rgb(237, 42, 16);
+  width: 90%;
 }
 .inp1div{
   width: 99%;
@@ -28,15 +30,15 @@ input{
 #dataTable{
   width: 99%;
  
-}
+} 
 
 #table {
     border-collapse: collapse;
    
     
-  }
+  } 
 
-  th, td {
+   th, td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -56,7 +58,7 @@ input{
 
   th.sorted-desc::after {
     content: " ↓";
-  }
+  } */
 
   /* აკარდეონი სტილი */
   
